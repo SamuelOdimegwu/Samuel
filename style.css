@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 80%;
+    color: white;
+}
+
+body {
+    background-image: url("coffe.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.container {
+    text-align: center;
+    width: 400px;
+    height: 650px;
+    margin-left: 300px;
+    margin-top: 10px;
+    background-color: rgba(125, 133, 146, 0.5);
+    background
+}
+
+#img {
+    width: 100px;
+}
+
+#coffee-txt {
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: underline;
+    font-family: 'Lobster', cursive;
+    transition: 2s;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+}
+
+#coffee-txt:hover {
+    color: #21110F;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+input {
+    display: block;
+    margin: 25px auto;
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid white;
+    padding: 15px;
+    width: 300px;
+    text-align: left;
+    font-size: 15px;
+    color: white;
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}
+
+.register {
+    border: none;
+    background-color: #007ACC;
+    color: white;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    padding: 20px auto;
+    margin-bottom: 5px;
+}
+
+.register:hover {
+    border: 2px solid white;
+    background: none;
+    color: white;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    padding: 20px auto;
+    margin-bottom: 5px
+}
+
+.socials {
+    border: 2px solid white;
+    color: white;
+    background: none;
+    margin: 20px 40px;
+    width: 100px;
+    padding: 4px;
+}
+
+.socials:hover {
+    border: 2px solid #007ACC;
+    color: white;
+    background: #007ACC;
+    margin: 20px 40px;
+    width: 100px;
+    padding: 4px;
+}
+
+a {
+    color: #007acc;
+}
+
+a:active {
+    color: #21110F;
+}
