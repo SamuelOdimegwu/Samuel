@@ -113,6 +113,7 @@ button:focus {
 
 a {
     color: #007acc;
+    text-decoration: none;
 }
 
 a:active {
